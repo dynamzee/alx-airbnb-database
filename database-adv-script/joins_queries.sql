@@ -30,3 +30,4 @@ SELECT u.user_id, first_name, booking_id
 FROM booking b
 RIGHT JOIN  user u
 	ON u.user_id = b.user_id;
+	FULL OUTER JOIN
